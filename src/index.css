@@ -1,8 +1,11 @@
 @tailwind base;
+@layer base {
+    body {
+        @apply bg-emerald-400
+    }
+}
 @tailwind components;
 @tailwind utilities;
 
-body {
-    background-color:antiquewhite;
-}
+
 
